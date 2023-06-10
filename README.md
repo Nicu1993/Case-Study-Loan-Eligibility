@@ -3,7 +3,7 @@ Welcome to the loan eligibility prediction problem! The objective is to determin
 First Part: To begin, let's analyze the data and process it for further exploration. The dataset contains various attributes that can help us make predictions. We will perform feature engineering, handle missing values, and perform any necessary transformations to ensure the data is suitable for our classification task.
 
 ## Data Preparation & Cleaning ##
-<img src="1.png" width = 300  title="Data Set" />
+<img src="/Users/nicorahn/Desktop/Ironhack/Mid_Project_final/1" width = 300  title="Data Set" />
 **Here are the key points of the File:**
 
 **Dataset Information**
@@ -28,16 +28,16 @@ I have decided to delete the remaining empty lines, as the respective answers he
 
 ## EDA - Exploratory Data Analysis ##
 10. Performed Exploratory Data Analysis (EDA) to analyze the distribution of numerical columns and visualize relationships between categorical columns and the loan status.
-<img src="1.png" width = 300  title="distribution of numerical columns" />
+<img src="/Users/nicorahn/Desktop/Ironhack/Mid_Project_final/2" width = 300  title="distribution of numerical columns" />
 11. Calculated the average income for each loan status category and created bar plots to compare them.
-<img src="1.png" width = 300  title="Education vs Loan_Status" />
+<img src="/Users/nicorahn/Desktop/Ironhack/Mid_Project_final/3" width = 300  title="Education vs Loan_Status" />
 Education vs Loan_Status:
 This table compares the education level ("Graduate" or "Not Graduate") with the loan status ("Y" for eligible or "N" for not eligible).
 We can observe that among the individuals with a "Graduate" education, a higher number (314) were eligible for a loan compared to those who were not eligible (129).
 On the other hand, among individuals with a "Not Graduate" education, the numbers are lower, with 76 being eligible and 48 being not eligible.
 This suggests that having a graduate education may positively influence the chances of being eligible for a loan.
 
-<img src="1.png" width = 300  title="DProperty_Area vs Loan_Status" />
+<img src="/Users/nicorahn/Desktop/Ironhack/Mid_Project_final/4" width = 300 title="DProperty_Area vs Loan_Status" />
 Property_Area vs Loan_Status:
 This table examines the property area ("Rural", "Semiurban", or "Urban") in relation to the loan status.
 In the "Rural" area, the number of individuals eligible for a loan (102) is higher than those who are not eligible (65).
@@ -45,7 +45,7 @@ In the "Semiurban" area, the trend is even more pronounced, with a significantly
 In the "Urban" area, the numbers are more balanced, with 121 individuals eligible and 62 not eligible.
 This suggests that individuals residing in semiurban areas have a higher chance of being eligible for a loan compared to rural or urban areas.
 
-<img src="1.png" width = 300  title="Married vs Loan_Status" />
+<img src="/Users/nicorahn/Desktop/Ironhack/Mid_Project_final/5" width = 300 title="Married vs Loan_Status" />
 Married vs Loan_Status:
 This table examines the marital status ("Yes" or "No") and its relationship with the loan status.
 Among individuals who are married ("Yes"), a higher number (268) are eligible for a loan compared to those who are not eligible (104).
@@ -56,7 +56,7 @@ This indicates that being married may increase the likelihood of being eligible 
 ### Correlations ###
 12. Created contingency tables and bar plots to examine relationships between categorical variables and loan status.
 13. Explored correlations between variables using a correlation matrix and histograms.
-<img src="1.png" width = 300  title="Correlations" />
+<img src="/Users/nicorahn/Desktop/Ironhack/Mid_Project_final/6" width = 300 title="Correlations" />
 
 ## Modeling (logistic regression)
 14. Prepared the data for modeling by splitting it into features (X) and target (y).
@@ -67,7 +67,7 @@ Each categorical column has been replaced with binary columns, where a value of 
 17. Trained a logistic regression model on the training data and evaluated its accuracy on the testing data.
 18. Visualized the confusion matrix to analyze the model's performance in predicting loan status.
 The result of the confusion matrix provides information about the performance of the classification model. The confusion matrix is a 2x2 matrix that represents the count of correctly and incorrectly classified instances for each class.
-<img src="1.png" width = 300  title="Correlationsconfusion_matrix" />
+<img src="/Users/nicorahn/Desktop/Ironhack/Mid_Project_final/7" width = 300  title="Correlationsconfusion_matrix" />
 
 
 - True Negative (TN): 15 - These are the cases that were actually classified as "N" (loan rejection) and were correctly predicted by the model.
